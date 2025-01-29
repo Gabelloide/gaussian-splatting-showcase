@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- ----- -->
   <link href="assets/styles/style.css" rel="stylesheet" media="all" type="text/css" id="theme-link">
-  <link rel="icon" type="image/png" sizes="512x512" href="assets/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/images/cube-solid.png">
   <!-- ----- -->
 
   <title>Gaussian Splatting | Showcase</title>
@@ -20,24 +20,45 @@
 
 <body>
 
-<!-- Navbar Component -->
-<div id="navbar-container"></div>
-<script src="assets/js/fetch_navbar.js"></script>
-
+<nav id='menu'>
+  <ul>
+    <li><a href=''><i class="fa-solid fa-house"></i></a></li>
+    <li><a href='pages/collection.html'>Collection</a></li>
+    <li><a href='pages/about.html'>About</a></li>
+    <li><a href='https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/'>Official Paper</a></li>
+  </ul>
+</nav>
 
 <!-- Main Content -->
 <main>
 
-  <h1 id="main-title">
+  <h1>
     Gaussian Splatting for Digital Twins
     <br>
     3D Assets Generation From Images
   </h1>
 
+  <h2>Abstract</h2>
+
   <p>
     This website serves a showcase for the Gaussian Splatting technique applied to the creation of 3D models from images. The technique is based on the idea of splatting points in a 3D space. The points are gathered from images using Structure From Motion (SfM) algorithms (such as <a href="https://colmap.github.io/" target="_blank">COLMAP</a>).
     The result is a 3D model that can be viewed from different angles.
   </p>
+
+  <h2><a href=''><span>Complete Collection <i class="fa-solid fa-arrow-up-right-from-square"></i></a></span></h2>
+
+  <hr />
+
+  <h2>Embedded Previews</h2>
+
+  <p>Renault R4 Fl4wer Power (Concept)</p>
+  <iframe src="assets/models/R4-viewer.html" width="75%" height="600px" style="display:block;border:none; margin: 0 auto;"></iframe>
+
+  <p>Renault R5 Roland-Garros</p>
+  <iframe src="assets/models/R5-viewer.html" width="75%" height="600px" style="display:block;border:none; margin: 0 auto;"></iframe>
+
+  <p>A car chassis</p>
+  <iframe src="assets/models/ChassisB-viewer.html" width="75%" height="600px" style="display:block;border:none; margin: 0 auto;"></iframe>
 
 </main>
 

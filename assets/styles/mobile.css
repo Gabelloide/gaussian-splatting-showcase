@@ -42,3 +42,33 @@
 #menu li a {
   transition: all 0.5s ease-out;
 }
+
+hr {
+  margin: 10% 10% 10% 10%;
+}
+
+/*  MODELS' GRID */
+#models_grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#models_grid div {
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+  padding: 5%;
+  font-size: 25px;
+}
+
+#models_grid a {
+  text-decoration: none;
+}
+
+#models_grid img {
+  display: inline-block;
+  margin: 5px;
+  width: 75px;
+}
