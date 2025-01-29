@@ -1,0 +1,64 @@
+@import "desktop.css"(min-width: 901px);
+@import "mobile.css"(min-width: 0px) and (max-width: 900px);
+
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('../fonts/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('../fonts/GlacialIndifference-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('../fonts/GlacialIndifference-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+#main-title
+{
+  font-family: 'Glacial Indifference';
+  font-weight: 100;
+  font-size: 48px;
+  color: #363636;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Glacial Indifference';
+  font-weight: 100;
+  font-size: 20px;
+  color: #363636;
+  text-align: center;
+}
+
+footer a {
+  color: #363636;
+  text-decoration: underline;
+}
+
+p {
+  margin: 2% 2% 2% 2%;
+  font-family: 'Glacial Indifference';
+  font-size: 20px;
+  color: #363636;
+  text-align: justify;
+}
+
+p a {
+  color: #00b3ff;
+  text-decoration:underline;
+  text-decoration-style: dotted;
+}
+
+main {
+  margin: 0 0 10% 0;
+}

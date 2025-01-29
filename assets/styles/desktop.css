@@ -1,0 +1,45 @@
+
+/* NAVBAR */
+#menu {
+  font-family: 'Glacial Indifference';
+  color: #363636;
+  height: 40px;
+  position: relative;
+}
+
+#menu ul,
+#menu li {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+#menu ul {
+  width: 100%;
+}
+
+#menu li {
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+#menu a {
+  display: block;
+  line-height: 40px;
+  padding: 0 25px;
+  text-decoration: none;
+  color: #363636;
+  font-size: 20px;
+}
+
+#menu li a:hover {
+  border-radius: 10px;
+  color: white;
+  background: #363636;
+  transition: all 0.5s ease-out;
+}
+
+#menu li a {
+  transition: all 0.5s ease-out;
+}
