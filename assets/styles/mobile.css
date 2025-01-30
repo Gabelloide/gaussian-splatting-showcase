@@ -72,3 +72,12 @@ hr {
   margin: 5px;
   width: 75px;
 }
+
+
+iframe {
+  width: 75%;
+  height: 200px;
+  display: block;
+  border: none;
+  margin: 0 auto;
+}
