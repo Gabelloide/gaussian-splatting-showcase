@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => {
         const size = response.headers.get('content-length');
         const sizeInMB = (size / (1024 * 1024)).toFixed(2);
-        console.log(`File ${url} is in MB: ${sizeInMB}`);
         element.querySelector('span').textContent = `${sizeInMB} MB`;
       })
       .catch(error => {
