@@ -53,8 +53,8 @@ hr {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 50px;
-  grid-auto-rows: auto;
-  row-gap: 100px;
+  grid-auto-rows: minmax(150px, auto);
+  row-gap: 150px;
   padding: 1%;
 }
 
